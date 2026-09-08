@@ -1,0 +1,32 @@
+{
+    "tables": [
+        {
+            "source_file": "Stg_Customers.csv",
+            "staging_table": "Stg_Customers",
+            "schema": "staging",
+            "delimiter": ",",
+            "first_row_header": true
+        },
+        {
+            "source_file": "Stg_Cards.csv",
+            "staging_table": "Stg_Cards",
+            "schema": "staging",
+            "delimiter": ",",
+            "first_row_header": true
+        },
+        {
+            "source_file": "Stg_Transactions.csv",
+            "staging_table": "Stg_Transactions",
+            "schema": "staging",
+            "delimiter": ",",
+            "first_row_header": true
+        },
+        {
+            "source_file": "Merchants.csv",
+            "staging_table": "Stg_Merchants",
+            "schema": "staging",
+            "delimiter": ",",
+            "first_row_header": true
+        }
+    ]
+}

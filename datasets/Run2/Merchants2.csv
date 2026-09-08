@@ -1,0 +1,61 @@
+MerchantID,MerchantName,Category,City,Country
+M001,Woolworths,Retail,Stellenbosch,South Africa
+M002,Pick n Pay,Retail,Johannesburg,South Africa
+M003,Checkers,Retail,George,South Africa
+M004,Game,Retail,Polokwane,South Africa
+M005,Makro,Retail,Rustenburg,South Africa
+M006,Mr Price,Retail,Centurion,South Africa
+M007,Foschini,Retail,Pretoria,South Africa
+M008,Clicks,Retail,Benoni,South Africa
+M009,Dis-Chem,Retail,George,South Africa
+M010,Builders Warehouse,Retail,Benoni,South Africa
+M011,Edgars,Retail,Benoni,South Africa
+M012,Totalsports,Retail,East London,South Africa
+M013,Pep,Food,George,South Africa
+M014,Truworths,Retail,Bloemfontein,South Africa
+M015,Nandos,Food,Port Elizabeth,South Africa
+M016,Steers,Food,Cape Town,South Africa
+M017,KFC,Food,George,South Africa
+M018,McDonalds,Food,Boksburg,South Africa
+M019,Ocean Basket,Food,Paarl,South Africa
+M020,Spur,Food,Sandton,South Africa
+M021,Wimpy,Food,Johannesburg,South Africa
+M022,Debonairs,Food,Johannesburg,South Africa
+M023,Vida e Caffe,Food,Benoni,South Africa
+M024,Mugg and Bean,Food,Durban,South Africa
+M025,Romans Pizza,Travel,Pietermaritzburg,South Africa
+M026,Chicken Licken,Entertainment,Centurion,South Africa
+M027,FlySafair,Travel,Nelspruit,South Africa
+M028,Kulula,Travel,George,South Africa
+M029,SAA,Travel,Durban,South Africa
+M030,Protea Hotels,Entertainment,Port Elizabeth,South Africa
+M031,City Lodge,Travel,Sandton,South Africa
+M032,Avis SA,Travel,Rustenburg,South Africa
+M033,Europcar,Travel,Kimberley,South Africa
+M034,Engen,Travel,Nelspruit,South Africa
+M035,BP,Travel,Stellenbosch,South Africa
+M036,Shell,Travel,Port Elizabeth,South Africa
+M037,Ster-Kinekor,Entertainment,Cape Town,South Africa
+M038,Nu Metro,Entertainment,Kimberley,South Africa
+M039,DStv,Entertainment,Polokwane,South Africa
+M040,Gold Reef City,Entertainment,Johannesburg,South Africa
+M041,Montecasino,Entertainment,Boksburg,South Africa
+M042,TicketPro,Entertainment,Stellenbosch,South Africa
+M043,Takealot,Online,Rustenburg,South Africa
+M044,Superbalist,Food,Bloemfontein,South Africa
+M045,Amazon.co.za,Online,George,South Africa
+M046,Uber Eats,Online,Nelspruit,South Africa
+M047,Netflix,Online,Benoni,South Africa
+M048,Spotify,Online,Rustenburg,South Africa
+M049,ShowMax,Online,Paarl,South Africa
+M050,Apple iTunes,Online,Stellenbosch,South Africa
+M051,Google Play,Online,Johannesburg,South Africa
+M052,Bash.com,Online,Durban,South Africa
+M053,Faithful to Nature,Online,Johannesburg,South Africa
+M054,Loot.co.za,Online,Midrand,South Africa
+M055,Zando,Online,Midrand,South Africa
+M056,Sportsmans Whouse,Entertainment,Paarl,South Africa
+M057,Cape Union Mart,Online,Kimberley,South Africa
+M058,Incredible Connect,Retail,Nelspruit,South Africa
+M059,iStore,Retail,Benoni,South Africa
+M060,Samsung Store,Retail,Rustenburg,South Africa

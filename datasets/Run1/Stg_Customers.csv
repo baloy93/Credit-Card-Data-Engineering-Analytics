@@ -1,0 +1,516 @@
+CustomerID,FullName,Gender,Age,City,Country
+C001,Sipho Smit,male,33.0,Pietermaritzburg,South Africa
+C002,Mpho Singh,MALE,23.0,Benoni,South Africa
+C003,Zanele Zulu,M,23.0,East London,South Africa
+C004,Sakhile Mthembu,female,19.0,Midrand,South Africa
+C005,Mthulisi Williams,f,32.0,Stellenbosch,South Africa
+C006,Lerato Radebe,F,62.0,Paarl,South Africa
+C007,Zainab Moloi,FEMALE,31.0,Polokwane,South Africa
+C008,Tshepo Smith,m,24.0,Rustenburg,South Africa
+C009,Fatima Dlamini,Male ,64.0,Stellenbosch,South Africa
+C010,Musa Ngcobo, Female,53.0,Nelspruit,South Africa
+C011,Nokufa Gcaleka,Male,63.0,Durban,South Africa
+C012,David Pretorius,MALE,23.0,Pietermaritzburg,South Africa
+C013,Musa Smit,female,47.0,Rustenburg,South Africa
+C014,Sifiso Steyn,M,31.0,Kimberley,South Africa
+C015,Francois Singh,F,64.0,Pietermaritzburg,South Africa
+C016,Phiwayinkosi Smith,male,35.0,Midrand,South Africa
+C017,Andile Mkhize,FEMALE,32.0,Cape Town,South Africa
+C018,Ntombifikile Smit,m,22.0,East London,South Africa
+C019,Neha Khoza,f,49.0,George,South Africa
+C020,Patricia Fourie,MALE,26.0,Pietermaritzburg,South Africa
+C021,,Female,55.0,George,South Africa
+C022,,Female,50.0,Sandton,South Africa
+C023,,Male,27.0,Bloemfontein,South Africa
+C024,,Female,42.0,Boksburg,South Africa
+C025,,Female,53.0,Johannesburg,South Africa
+C026,,Male,59.0,Polokwane,South Africa
+C027,,Male,28.0,Stellenbosch,South Africa
+C028,,Male,29.0,Centurion,South Africa
+C029,,Male,50.0,Boksburg,South Africa
+C030,,Male,28.0,Midrand,South Africa
+C031,,Male,19.0,Pretoria,South Africa
+C032,,Female,21.0,Pietermaritzburg,South Africa
+C033,,Male,22.0,Midrand,South Africa
+C034,,Male,53.0,Bloemfontein,South Africa
+C035,,Female,45.0,East London,South Africa
+C036,Yusuf Jones,Male,60.0,,South Africa
+C037,Sbongile Taylor,Female,25.0,,South Africa
+C038,Kagiso de Villiers,Male,19.0,,South Africa
+C039,Mduduzi Botha,Male,18.0,,South Africa
+C040,David Ndlovu,Male,20.0,,South Africa
+C041,Sakhile Coetzee,Male,35.0,,South Africa
+C042,Mthulisi Mokoena,Male,64.0,,South Africa
+C043,Ayesha Naidoo,Female,44.0,,South Africa
+C044,Mpho Brown,Male,40.0,,South Africa
+C045,Zodwa Mkhize,Female,61.0,,South Africa
+C046,Sibusiso de Villiers,Male,24.0,,South Africa
+C047,Robert Singh,Male,46.0,,South Africa
+C048,Linda Smit,Female,47.0,,South Africa
+C049,Mthokozisi Moodley,Male,24.0,,South Africa
+C050,Tshepo Coetzee,Male,28.0,,South Africa
+C051,Nokuthula van der Merwe,Female,999.0,Cape Town,South Africa
+C052,Musa Nkosi,Male,-5.0,Kimberley,South Africa
+C053,Nomvula Brown,Female,0.0,Midrand,South Africa
+C054,Patricia Gcaleka,Female,-1.0,East London,South Africa
+C055,Mduduzi Singh,Male,999.0,Polokwane,South Africa
+C056,Bongani Shabalala,Male,-10.0,Centurion,South Africa
+C057,Bongani Reddy,Male,0.0,Bloemfontein,South Africa
+C058,Kagiso Coetzee,Male,999.0,Pretoria,South Africa
+C059,Mduduzi Mthembu,Male,-5.0,Boksburg,South Africa
+C060,Njabulo Shabalala,Male,150.0,Centurion,South Africa
+C061,Fatima van der Merwe,Female,,Polokwane,South Africa
+C062,Sanjay Jones,Male,,Nelspruit,South Africa
+C063,Nokwanda Ndlovu,Female,,Stellenbosch,South Africa
+C064,Kagiso Singh,Male,,Centurion,South Africa
+C065,Helena Steyn,Female,,Pietermaritzburg,South Africa
+C066,Nomvula Radebe,Female,46.0,Midrand,south africa
+C067,Sbongile Nkosi,Female,60.0,Midrand,SOUTH AFRICA
+C068,Elsie Mokoena,Female,34.0,Pretoria,South africa
+C069,Nkosinathi Moloi,Male,35.0,Nelspruit,S.Africa
+C070,Lungelo van der Merwe,Male,61.0,Kimberley,RSA
+C071,Fatima Mkhize,Female,23.0,Paarl,south Africa
+C072,Zanele Nkosi,Female,39.0,Port Elizabeth,ZA
+C073,Jennifer Taylor,Female,53.0,Paarl,SA
+C074,Themba Ndlovu,Male,62.0,Port Elizabeth,south africa
+C075,Sifiso Shabalala,Male,53.0,Port Elizabeth,SOUTH AFRICA
+C076,Helena Dlamini,Female,37.0,Rustenburg,South Africa
+C077,Nhlanhla van der Merwe,Male,61.0,Pietermaritzburg,South Africa
+C078,Nhlanhla Moodley,Male,44.0,Boksburg,South Africa
+C079,Rajesh Radebe,Male,29.0,Paarl,South Africa
+C080,James de Villiers,Male,44.0,Pietermaritzburg,South Africa
+C081,Jennifer Cele,Female,42.0,Cape Town,South Africa
+C082,Sunita Gcaleka,Female,47.0,Rustenburg,South Africa
+C083,Sunita Botha,Female,19.0,East London,South Africa
+C084,Busisiwe Smit,Female,22.0,Kimberley,South Africa
+C085,Ntombi Jones,Female,61.0,Midrand,South Africa
+C086,Nomsa Modise,Female,34.0,Bloemfontein,South Africa
+C087,Zanele Cele,Female,56.0,Paarl,South Africa
+C088,Nokwanda Brown,Female,56.0,Centurion,South Africa
+C089,Musa Sithole,Male,30.0,Kimberley,South Africa
+C090,Sanele Nkosi,Male,51.0,Midrand,South Africa
+C091,Sifiso Brown,Male,22.0,Polokwane,South Africa
+C092,Maria Joubert,Female,50.0,Nelspruit,South Africa
+C093,Nokwanda Jones,Female,62.0,Nelspruit,South Africa
+C094,Robert Williams,Male,60.0,George,South Africa
+C095,Buyani Joubert,Male,43.0,Midrand,South Africa
+C096,Yusuf Pretorius,Male,31.0,Paarl,South Africa
+C097,Zodwa Taylor,Female,46.0,East London,South Africa
+C098,Jennifer Ngcobo,Female,36.0,Centurion,South Africa
+C099,Naledi Coetzee,Female,61.0,Nelspruit,South Africa
+C100,Robert Moloi,Male,19.0,Cape Town,South Africa
+C101,Lethiwe Zwane,Male,22.0,Stellenbosch,South Africa
+C102,Nokufa Gcaleka,Female,63.0,George,South Africa
+C103,Ntombifikile Coetzee,Female,27.0,Johannesburg,South Africa
+C104,Sanele Botha,Male,29.0,Centurion,South Africa
+C105,Thandeka Moodley,Female,33.0,Pretoria,South Africa
+C106,Helena Anderson,Female,60.0,Centurion,South Africa
+C107,Simangele Zwane,Female,64.0,Centurion,South Africa
+C108,Lungile Taylor,Female,28.0,Sandton,South Africa
+C109,Fatima Coetzee,Female,58.0,Kimberley,South Africa
+C110,Ayesha Smit,Female,46.0,Durban,South Africa
+C111,Ayesha Smit,Female,39.0,Polokwane,South Africa
+C112,Johan Moloi,Male,32.0,George,South Africa
+C113,Michael Ndlovu,Male,44.0,Paarl,South Africa
+C114,Nozipho Anderson,Female,44.0,Cape Town,South Africa
+C115,Njabulo Smith,Male,55.0,Johannesburg,South Africa
+C116,Nokuthula Nkosi,Female,40.0,Nelspruit,South Africa
+C117,Lindiwe Singh,Female,65.0,Midrand,South Africa
+C118,Lwazi Botha,Male,35.0,Paarl,South Africa
+C119,Nomsa Smith,Female,39.0,George,South Africa
+C120,Phiwayinkosi Mokoena,Male,57.0,Midrand,South Africa
+C121,Sibusiso Shabalala,Male,54.0,Johannesburg,South Africa
+C122,Sanele Mokoena,Male,47.0,Bloemfontein,South Africa
+C123,Sanjay Smith,Male,38.0,East London,South Africa
+C124,Nokwanda de Villiers,Female,42.0,Kimberley,South Africa
+C125,Fatima Ngcobo,Female,48.0,Johannesburg,South Africa
+C126,Nhlanhla Botha,Male,59.0,Durban,South Africa
+C127,Sipho Coetzee,Male,30.0,Johannesburg,South Africa
+C128,Rajesh Mokoena,Male,48.0,Pretoria,South Africa
+C129,Phiwayinkosi Fourie,Male,41.0,Bloemfontein,South Africa
+C130,Francois Joubert,Male,24.0,Benoni,South Africa
+C131,Yusuf Sithole,Male,61.0,George,South Africa
+C132,Priya Ndlovu,Female,55.0,Pietermaritzburg,South Africa
+C133,Yusuf Mthembu,Male,25.0,Benoni,South Africa
+C134,Nhlanhla Singh,Male,45.0,Rustenburg,South Africa
+C135,Sakhile Khoza,Male,39.0,Johannesburg,South Africa
+C136,Noxolo Cele,Female,45.0,Rustenburg,South Africa
+C137,Patricia Brown,Female,29.0,Centurion,South Africa
+C138,Nozipho Naidoo,Female,47.0,Paarl,South Africa
+C139,Nokwanda Coetzee,Female,23.0,Kimberley,South Africa
+C140,Ayesha Anderson,Female,54.0,Boksburg,South Africa
+C141,Busisiwe Zulu,Female,49.0,Polokwane,South Africa
+C142,Lwazi van der Merwe,Male,40.0,Kimberley,South Africa
+C143,Zainab Mthembu,Female,62.0,Kimberley,South Africa
+C144,Thandolwethu Gcaleka,Male,23.0,Pietermaritzburg,South Africa
+C145,Noxolo Moodley,Female,33.0,Sandton,South Africa
+C146,Simangele Zulu,Female,23.0,Nelspruit,South Africa
+C147,Sibusiso Coetzee,Male,37.0,Benoni,South Africa
+C148,Nokuthula Moodley,Female,51.0,Rustenburg,South Africa
+C149,Lungile de Villiers,Female,40.0,Stellenbosch,South Africa
+C150,Thandi Fourie,Female,32.0,Pretoria,South Africa
+C151,Andile Modise,Male,65.0,Midrand,South Africa
+C152,Robert van der Merwe,Male,65.0,Sandton,South Africa
+C153,Nobuhle Pillay,Female,56.0,Nelspruit,South Africa
+C154,Robert Pretorius,Male,32.0,Rustenburg,South Africa
+C155,Yusuf Nkosi,Male,63.0,Midrand,South Africa
+C156,Amit Dlamini,Male,21.0,Midrand,South Africa
+C157,Helena Mhlongo,Female,49.0,Pretoria,South Africa
+C158,Buyani Pretorius,Male,48.0,Sandton,South Africa
+C159,Busisiwe Baloyi,Female,21.0,Kimberley,South Africa
+C160,Maria Ndlovu,Female,43.0,Sandton,South Africa
+C161,Buyani Mhlongo,Male,61.0,Cape Town,South Africa
+C162,Hendrik Sithole,Male,37.0,Durban,South Africa
+C163,Themba Moodley,Male,44.0,Boksburg,South Africa
+C164,Thandolwethu Smith,Male,46.0,Stellenbosch,South Africa
+C165,Nobuhle Brown,Female,37.0,Benoni,South Africa
+C166,Mpho van der Merwe,Male,58.0,East London,South Africa
+C167,Naledi Radebe,Female,33.0,Bloemfontein,South Africa
+C168,Francois Nkosi,Male,44.0,Stellenbosch,South Africa
+C169,Nomvula Dlamini,Female,32.0,Nelspruit,South Africa
+C170,Zodwa Ndlovu,Female,61.0,Pietermaritzburg,South Africa
+C171,Nobuhle Gcaleka,Female,45.0,Pretoria,South Africa
+C172,Hendrik Smit,Male,27.0,Durban,South Africa
+C173,Francois Joubert,Male,56.0,Benoni,South Africa
+C174,Simangele Modise,Female,47.0,Nelspruit,South Africa
+C175,Zainab Reddy,Female,52.0,Sandton,South Africa
+C176,Naledi Mthembu,Female,20.0,Paarl,South Africa
+C177,Fatima Zulu,Female,23.0,Pietermaritzburg,South Africa
+C178,Amit Sithole,Male,20.0,Bloemfontein,South Africa
+C179,Sbongile Khoza,Female,46.0,Kimberley,South Africa
+C180,Mduduzi Brown,Male,58.0,Sandton,South Africa
+C181,Lethiwe Steyn,Male,44.0,Polokwane,South Africa
+C182,Elsie Radebe,Female,39.0,Paarl,South Africa
+C183,Nomvula Jones,Female,53.0,Cape Town,South Africa
+C184,Naledi Kruger,Female,34.0,Polokwane,South Africa
+C185,Sibusiso Reddy,Male,18.0,Midrand,South Africa
+C186,Lindiwe Mkhize,Female,30.0,Centurion,South Africa
+C187,Noxolo Mhlongo,Female,46.0,Cape Town,South Africa
+C188,Amit Moodley,Male,26.0,Nelspruit,South Africa
+C189,Noxolo Modise,Female,19.0,Boksburg,South Africa
+C190,Francois Joubert,Male,53.0,Johannesburg,South Africa
+C191,Naledi Botha,Female,25.0,Stellenbosch,South Africa
+C192,Hendrik Govender,Male,63.0,Nelspruit,South Africa
+C193,Lindiwe Naidoo,Female,48.0,Pietermaritzburg,South Africa
+C194,Lungile Moloi,Female,42.0,East London,South Africa
+C195,Kagiso Smit,Male,44.0,Polokwane,South Africa
+C196,Lerato Pretorius,Female,64.0,Nelspruit,South Africa
+C197,Patricia Taylor,Female,52.0,Sandton,South Africa
+C198,Busisiwe Moodley,Female,52.0,George,South Africa
+C199,Nokwanda Gcaleka,Female,62.0,Pietermaritzburg,South Africa
+C200,Sunita Williams,Female,20.0,Polokwane,South Africa
+C201,Ayanda Smith,Female,60.0,Port Elizabeth,South Africa
+C202,Zanele Mokoena,Female,50.0,Benoni,South Africa
+C203,Elsie Taylor,Female,24.0,Centurion,South Africa
+C204,Lerato Moloi,Female,44.0,Port Elizabeth,South Africa
+C205,Lethiwe Fourie,Male,39.0,Boksburg,South Africa
+C206,Naledi de Villiers,Female,61.0,Midrand,South Africa
+C207,Nokwanda Mhlongo,Female,63.0,Sandton,South Africa
+C208,Kagiso Coetzee,Male,58.0,Nelspruit,South Africa
+C209,Tshepo Brown,Male,24.0,Pretoria,South Africa
+C210,Jennifer Joubert,Female,19.0,Cape Town,South Africa
+C211,Thandeka Pretorius,Female,40.0,Rustenburg,South Africa
+C212,Patricia Coetzee,Female,51.0,Paarl,South Africa
+C213,Francois Baloyi,Male,23.0,Boksburg,South Africa
+C214,Ayesha Govender,Female,55.0,Port Elizabeth,South Africa
+C215,Phiwayinkosi Mhlongo,Male,34.0,Stellenbosch,South Africa
+C216,Lerato Anderson,Female,36.0,Midrand,South Africa
+C217,Kagiso Taylor,Male,40.0,Benoni,South Africa
+C218,Nokukhanya Fourie,Female,47.0,Nelspruit,South Africa
+C219,Musa Naidoo,Male,24.0,Pietermaritzburg,South Africa
+C220,Nokufa Steyn,Female,54.0,Nelspruit,South Africa
+C221,Nomsa Jones,Female,35.0,Johannesburg,South Africa
+C222,Lwazi Pretorius,Male,32.0,Boksburg,South Africa
+C223,Sunita Mhlongo,Female,30.0,Boksburg,South Africa
+C224,Helena Mhlongo,Female,24.0,Cape Town,South Africa
+C225,Simangele Dlamini,Female,55.0,Rustenburg,South Africa
+C226,Tshepo Pretorius,Male,38.0,Paarl,South Africa
+C227,Robert Mokoena,Male,52.0,Rustenburg,South Africa
+C228,Jennifer Fourie,Female,48.0,Nelspruit,South Africa
+C229,Maria Anderson,Female,22.0,Port Elizabeth,South Africa
+C230,Sibusiso Moodley,Male,41.0,Durban,South Africa
+C231,Lerato Fourie,Female,52.0,Pretoria,South Africa
+C232,Siphokazi Fourie,Female,55.0,George,South Africa
+C233,Elsie Botha,Female,48.0,Johannesburg,South Africa
+C234,Sunita Khoza,Female,22.0,Stellenbosch,South Africa
+C235,Lindiwe Modise,Female,26.0,Cape Town,South Africa
+C236,Yusuf Govender,Male,25.0,Pretoria,South Africa
+C237,Mthulisi Mokoena,Male,42.0,Stellenbosch,South Africa
+C238,Nozipho Williams,Female,55.0,Port Elizabeth,South Africa
+C239,Elsie Govender,Female,57.0,Paarl,South Africa
+C240,Zanele Lombard,Female,31.0,Stellenbosch,South Africa
+C241,Ayesha Lombard,Female,24.0,Rustenburg,South Africa
+C242,Thandeka Jones,Female,35.0,East London,South Africa
+C243,Phiwayinkosi Ngcobo,Male,60.0,East London,South Africa
+C244,Bongani de Villiers,Male,33.0,Port Elizabeth,South Africa
+C245,Kagiso Moodley,Male,31.0,Benoni,South Africa
+C246,David de Villiers,Male,27.0,Boksburg,South Africa
+C247,Amit Moloi,Male,26.0,Midrand,South Africa
+C248,Linda Modise,Female,60.0,Johannesburg,South Africa
+C249,Thabo Steyn,Male,33.0,Benoni,South Africa
+C250,Nomsa Baloyi,Female,34.0,Cape Town,South Africa
+C251,Njabulo Pillay,Male,25.0,Durban,South Africa
+C252,Simangele Lombard,Female,50.0,Benoni,South Africa
+C253,Mthokozisi Reddy,Male,32.0,Boksburg,South Africa
+C254,Thandolwethu Joubert,Male,47.0,Johannesburg,South Africa
+C255,Lethiwe Jones,Male,45.0,Pretoria,South Africa
+C256,Simangele Ndlovu,Female,23.0,Polokwane,South Africa
+C257,Kagiso Mokoena,Male,35.0,Boksburg,South Africa
+C258,Ayanda Mthembu,Female,51.0,Nelspruit,South Africa
+C259,Ntombi Mthembu,Female,45.0,Pretoria,South Africa
+C260,Nkosinathi van der Merwe,Male,45.0,Stellenbosch,South Africa
+C261,Njabulo de Villiers,Male,47.0,George,South Africa
+C262,Elsie Kruger,Female,45.0,Polokwane,South Africa
+C263,Siphokazi Moloi,Female,61.0,Sandton,South Africa
+C264,Tshepo Ngcobo,Male,23.0,Paarl,South Africa
+C265,Sifiso Mokoena,Male,53.0,Cape Town,South Africa
+C266,Maria Williams,Female,40.0,Paarl,South Africa
+C267,Mohammed Mthembu,Male,37.0,Rustenburg,South Africa
+C268,Buyani Reddy,Male,31.0,Port Elizabeth,South Africa
+C269,Sunita Cele,Female,40.0,Midrand,South Africa
+C270,Maria Smit,Female,54.0,Pietermaritzburg,South Africa
+C271,Lungile Zwane,Female,57.0,Midrand,South Africa
+C272,Amit Zulu,Male,29.0,Kimberley,South Africa
+C273,Busisiwe Steyn,Female,18.0,Bloemfontein,South Africa
+C274,Buyani Jones,Male,22.0,Port Elizabeth,South Africa
+C275,Tshepo Pillay,Male,31.0,George,South Africa
+C276,Zodwa de Villiers,Female,28.0,Rustenburg,South Africa
+C277,Nokwanda Sithole,Female,56.0,Durban,South Africa
+C278,Hendrik Radebe,Male,57.0,Cape Town,South Africa
+C279,Amit Taylor,Male,60.0,Paarl,South Africa
+C280,Simangele Williams,Female,35.0,East London,South Africa
+C281,Nhlanhla Brown,Male,25.0,Nelspruit,South Africa
+C282,Sbongile Joubert,Female,20.0,Pietermaritzburg,South Africa
+C283,Thandeka Nkosi,Female,31.0,Nelspruit,South Africa
+C284,Johan Fourie,Male,36.0,Polokwane,South Africa
+C285,Thabo Govender,Male,65.0,Paarl,South Africa
+C286,Johan Smith,Male,52.0,Pietermaritzburg,South Africa
+C287,Precious Jones,Female,65.0,Cape Town,South Africa
+C288,Nomsa Anderson,Female,22.0,Polokwane,South Africa
+C289,Nokufa Jones,Female,63.0,Paarl,South Africa
+C290,Maria Jones,Female,19.0,Polokwane,South Africa
+C291,Phiwayinkosi Lombard,Male,23.0,Paarl,South Africa
+C292,Rajesh Brown,Male,55.0,George,South Africa
+C293,Sibusiso Joubert,Male,65.0,Polokwane,South Africa
+C294,Lungelo Radebe,Male,22.0,Centurion,South Africa
+C295,Thandolwethu Reddy,Male,30.0,Rustenburg,South Africa
+C296,Patricia Coetzee,Female,24.0,Port Elizabeth,South Africa
+C297,Priya Baloyi,Female,56.0,Port Elizabeth,South Africa
+C298,James Mhlongo,Male,49.0,Stellenbosch,South Africa
+C299,Nokufa Khoza,Female,58.0,Boksburg,South Africa
+C300,Nokwanda Moloi,Female,46.0,Durban,South Africa
+C301,Simangele Mhlongo,Female,37.0,Kimberley,South Africa
+C302,Nhlanhla Reddy,Male,22.0,Nelspruit,South Africa
+C303,Simangele Dlamini,Female,21.0,Rustenburg,South Africa
+C304,Precious Khoza,Female,23.0,Boksburg,South Africa
+C305,Zodwa Shabalala,Female,53.0,Cape Town,South Africa
+C306,Nokufa Khoza,Female,30.0,Polokwane,South Africa
+C307,Ntombi Moloi,Female,21.0,Stellenbosch,South Africa
+C308,Lungelo Ngcobo,Male,50.0,Bloemfontein,South Africa
+C309,Rajesh Taylor,Male,46.0,Centurion,South Africa
+C310,Sifiso Lombard,Male,36.0,George,South Africa
+C311,Busisiwe Mthembu,Female,21.0,Polokwane,South Africa
+C312,Lungelo Cele,Male,53.0,George,South Africa
+C313,Fatima Mthembu,Female,27.0,Polokwane,South Africa
+C314,Mduduzi Moloi,Male,40.0,Nelspruit,South Africa
+C315,Helena Mthembu,Female,63.0,Durban,South Africa
+C316,Lungile Smith,Female,59.0,Polokwane,South Africa
+C317,Thandolwethu Ngcobo,Male,59.0,Paarl,South Africa
+C318,Nomsa Lombard,Female,37.0,Bloemfontein,South Africa
+C319,Lungelo Govender,Male,30.0,Pietermaritzburg,South Africa
+C320,Hendrik Ndlovu,Male,36.0,Pretoria,South Africa
+C321,Lungelo Zwane,Male,26.0,Boksburg,South Africa
+C322,Patricia Radebe,Female,29.0,Boksburg,South Africa
+C323,Mthokozisi Dlamini,Male,44.0,Rustenburg,South Africa
+C324,Mthokozisi Zwane,Male,36.0,Stellenbosch,South Africa
+C325,Mthulisi Coetzee,Male,37.0,Sandton,South Africa
+C326,Sifiso Sithole,Male,46.0,Stellenbosch,South Africa
+C327,Ayanda Reddy,Female,51.0,Paarl,South Africa
+C328,Robert Mthembu,Male,26.0,Kimberley,South Africa
+C329,Lethiwe Lombard,Male,53.0,Pretoria,South Africa
+C330,Mohammed Ngcobo,Male,28.0,Kimberley,South Africa
+C331,Ntombi Moloi,Female,45.0,Durban,South Africa
+C332,Mthokozisi Steyn,Male,19.0,Paarl,South Africa
+C333,Sibusiso Reddy,Male,41.0,Pietermaritzburg,South Africa
+C334,Naledi Lombard,Female,32.0,Johannesburg,South Africa
+C335,Elsie Khoza,Female,39.0,Port Elizabeth,South Africa
+C336,Mandla Pretorius,Male,48.0,Port Elizabeth,South Africa
+C337,Simangele Zwane,Female,18.0,Durban,South Africa
+C338,Sanjay van der Merwe,Male,27.0,Midrand,South Africa
+C339,Maria Pretorius,Female,33.0,Nelspruit,South Africa
+C340,Bongani Coetzee,Male,44.0,Boksburg,South Africa
+C341,Precious Modise,Female,49.0,Boksburg,South Africa
+C342,Sakhile Sithole,Male,33.0,Port Elizabeth,South Africa
+C343,Nokukhanya Nkosi,Female,57.0,Rustenburg,South Africa
+C344,Buyani Williams,Male,29.0,Durban,South Africa
+C345,Precious Pillay,Female,52.0,Centurion,South Africa
+C346,Musa Naidoo,Male,20.0,George,South Africa
+C347,Fatima Zulu,Female,40.0,Durban,South Africa
+C348,Ayesha Mhlongo,Female,24.0,Benoni,South Africa
+C349,Helena Dlamini,Female,40.0,Midrand,South Africa
+C350,Linda Anderson,Female,62.0,Sandton,South Africa
+C351,Johan Ndlovu,Male,63.0,Stellenbosch,South Africa
+C352,Mohammed Gcaleka,Male,20.0,East London,South Africa
+C353,Andile Joubert,Male,50.0,George,South Africa
+C354,Fatima Dlamini,Female,59.0,East London,South Africa
+C355,Nompumelelo Mkhize,Female,59.0,Polokwane,South Africa
+C356,Maria Lombard,Female,45.0,George,South Africa
+C357,Ayanda de Villiers,Female,29.0,Sandton,South Africa
+C358,Siphokazi Pillay,Female,35.0,Durban,South Africa
+C359,Naledi Brown,Female,56.0,Bloemfontein,South Africa
+C360,Nokwanda Cele,Female,23.0,Polokwane,South Africa
+C361,Thandi Taylor,Female,56.0,Paarl,South Africa
+C362,Mthokozisi Steyn,Male,46.0,Cape Town,South Africa
+C363,Nokukhanya Smit,Female,58.0,Cape Town,South Africa
+C364,Sibusiso Lombard,Male,50.0,Bloemfontein,South Africa
+C365,Hendrik Mthembu,Male,61.0,Stellenbosch,South Africa
+C366,Johan Ndlovu,Male,33.0,Rustenburg,South Africa
+C367,Ayanda Sithole,Female,20.0,Boksburg,South Africa
+C368,Mthokozisi Lombard,Male,41.0,Stellenbosch,South Africa
+C369,Buyani Mokoena,Male,51.0,Rustenburg,South Africa
+C370,Nokwanda Khoza,Female,35.0,Pietermaritzburg,South Africa
+C371,Sipho Baloyi,Male,49.0,Centurion,South Africa
+C372,Lungile Modise,Female,34.0,Kimberley,South Africa
+C373,Neha Zwane,Female,36.0,Sandton,South Africa
+C374,Themba Mokoena,Male,22.0,Stellenbosch,South Africa
+C375,Mthokozisi Ngcobo,Male,61.0,Polokwane,South Africa
+C376,Precious Moodley,Female,52.0,Nelspruit,South Africa
+C377,Jennifer Mhlongo,Female,29.0,Rustenburg,South Africa
+C378,Themba Gcaleka,Male,26.0,Pietermaritzburg,South Africa
+C379,Nomsa Lombard,Female,53.0,Benoni,South Africa
+C380,Zodwa Moodley,Female,26.0,Boksburg,South Africa
+C381,Kagiso Joubert,Male,43.0,Sandton,South Africa
+C382,Lindiwe Sithole,Female,22.0,Port Elizabeth,South Africa
+C383,Precious Taylor,Female,47.0,Centurion,South Africa
+C384,Helena Moodley,Female,58.0,Benoni,South Africa
+C385,Johan Brown,Male,50.0,Cape Town,South Africa
+C386,Thandolwethu Moloi,Male,37.0,Bloemfontein,South Africa
+C387,Andile Botha,Male,40.0,Centurion,South Africa
+C388,Naledi Fourie,Female,30.0,Midrand,South Africa
+C389,Helena Mhlongo,Female,37.0,Boksburg,South Africa
+C390,Sakhile Khoza,Male,28.0,Benoni,South Africa
+C391,Francois Zwane,Male,64.0,Boksburg,South Africa
+C392,Nokufa Dlamini,Female,19.0,Durban,South Africa
+C393,Buyani Fourie,Male,59.0,East London,South Africa
+C394,Nomsa Govender,Female,58.0,Midrand,South Africa
+C395,Thandi Naidoo,Female,33.0,George,South Africa
+C396,Zodwa Ndlovu,Female,62.0,Cape Town,South Africa
+C397,Mthokozisi Williams,Male,48.0,Stellenbosch,South Africa
+C398,Lungelo Mthembu,Male,27.0,Polokwane,South Africa
+C399,Nompumelelo Jones,Female,26.0,Rustenburg,South Africa
+C400,Andile Coetzee,Male,47.0,Pretoria,South Africa
+C401,Simangele Coetzee,Female,27.0,Pretoria,South Africa
+C402,Mohammed Smith,Male,57.0,Paarl,South Africa
+C403,Francois Kruger,Male,54.0,Polokwane,South Africa
+C404,Francois Govender,Male,50.0,Stellenbosch,South Africa
+C405,Thandi Govender,Female,19.0,Durban,South Africa
+C406,Ntombi Anderson,Female,33.0,East London,South Africa
+C407,Thandeka Mkhize,Female,36.0,Sandton,South Africa
+C408,Nomvula Singh,Female,18.0,Pretoria,South Africa
+C409,Helena Fourie,Female,64.0,Rustenburg,South Africa
+C410,Siphokazi Dlamini,Female,43.0,Cape Town,South Africa
+C411,Sifiso Moodley,Male,36.0,Durban,South Africa
+C412,Ntombi Taylor,Female,53.0,Kimberley,South Africa
+C413,Johan Cele,Male,43.0,Rustenburg,South Africa
+C414,Lungile Lombard,Female,27.0,East London,South Africa
+C415,Ntombi Dlamini,Female,20.0,Cape Town,South Africa
+C416,Lungelo Naidoo,Male,51.0,Stellenbosch,South Africa
+C417,Sakhile Mokoena,Male,38.0,Boksburg,South Africa
+C418,Jennifer Jones,Female,57.0,Nelspruit,South Africa
+C419,Ntombi Reddy,Female,52.0,Sandton,South Africa
+C420,Nokuthula Zulu,Female,41.0,Polokwane,South Africa
+C421,Njabulo Shabalala,Male,37.0,Johannesburg,South Africa
+C422,Fatima Khoza,Female,55.0,Benoni,South Africa
+C423,Bongani Shabalala,Male,48.0,Bloemfontein,South Africa
+C424,Patricia Coetzee,Female,20.0,Benoni,South Africa
+C425,Robert Zulu,Male,46.0,Polokwane,South Africa
+C426,Patricia Williams,Female,62.0,East London,South Africa
+C427,Ntombi Zwane,Female,48.0,Cape Town,South Africa
+C428,Thandolwethu van der Merwe,Male,53.0,Polokwane,South Africa
+C429,Sbongile Smith,Female,38.0,Bloemfontein,South Africa
+C430,Nozipho de Villiers,Female,52.0,Rustenburg,South Africa
+C431,Nokuthula Gcaleka,Female,33.0,Kimberley,South Africa
+C432,Sunita Joubert,Female,36.0,East London,South Africa
+C433,Nokwanda Naidoo,Female,40.0,Midrand,South Africa
+C434,Nomvula Modise,Female,54.0,Midrand,South Africa
+C435,Ntombifikile Steyn,Female,27.0,Nelspruit,South Africa
+C436,Mohammed Ngcobo,Male,40.0,Stellenbosch,South Africa
+C437,Nokuthula van der Merwe,Female,30.0,Midrand,South Africa
+C438,Lungile Smit,Female,26.0,Pretoria,South Africa
+C439,Rajesh Mkhize,Male,60.0,Centurion,South Africa
+C440,David Mkhize,Male,24.0,Paarl,South Africa
+C441,Nokuthula Cele,Female,61.0,Port Elizabeth,South Africa
+C442,Nkosinathi Radebe,Male,44.0,Sandton,South Africa
+C443,Priya Pretorius,Female,38.0,Nelspruit,South Africa
+C444,Tshepo Khoza,Male,54.0,Pietermaritzburg,South Africa
+C445,James Williams,Male,29.0,Cape Town,South Africa
+C446,Noxolo Baloyi,Female,65.0,Nelspruit,South Africa
+C447,Thabo Joubert,Male,54.0,Boksburg,South Africa
+C448,Lungelo Pretorius,Male,47.0,Midrand,South Africa
+C449,Helena Reddy,Female,47.0,Kimberley,South Africa
+C450,Themba de Villiers,Male,28.0,Stellenbosch,South Africa
+C451,Linda Nkosi,Female,65.0,Polokwane,South Africa
+C452,Nokufa Gcaleka,Female,29.0,Boksburg,South Africa
+C453,Nokukhanya Reddy,Female,38.0,Durban,South Africa
+C454,Elsie Baloyi,Female,26.0,Sandton,South Africa
+C455,Ayesha Nkosi,Female,34.0,George,South Africa
+C456,Mthokozisi Smit,Male,39.0,Nelspruit,South Africa
+C457,Sanjay Khoza,Male,41.0,Pietermaritzburg,South Africa
+C458,Themba Anderson,Male,37.0,Bloemfontein,South Africa
+C459,Ntombi Joubert,Female,62.0,Pretoria,South Africa
+C460,Siphokazi Zwane,Female,32.0,Pietermaritzburg,South Africa
+C461,Lethiwe Moloi,Male,47.0,Boksburg,South Africa
+C462,Lindiwe Moodley,Female,48.0,Midrand,South Africa
+C463,Rajesh Mthembu,Male,23.0,Centurion,South Africa
+C464,Sbongile Lombard,Female,22.0,Benoni,South Africa
+C465,Bongani Moodley,Male,50.0,East London,South Africa
+C466,Francois Kruger,Male,51.0,Stellenbosch,South Africa
+C467,Michael Shabalala,Male,49.0,Durban,South Africa
+C468,Thandeka Anderson,Female,26.0,Centurion,South Africa
+C469,Zodwa Sithole,Female,21.0,Midrand,South Africa
+C470,Thandi Zulu,Female,43.0,Kimberley,South Africa
+C471,Michael Shabalala,Male,22.0,Cape Town,South Africa
+C472,Nompumelelo Ndlovu,Female,52.0,Cape Town,South Africa
+C473,Lethiwe Dlamini,Male,36.0,Paarl,South Africa
+C474,Johan Khoza,Male,64.0,Paarl,South Africa
+C475,Ayanda Taylor,Female,42.0,George,South Africa
+C476,Mthulisi Mokoena,Male,59.0,Rustenburg,South Africa
+C477,James Singh,Male,43.0,Centurion,South Africa
+C478,David Nkosi,Male,19.0,Nelspruit,South Africa
+C479,Nozipho Brown,Female,52.0,George,South Africa
+C480,Rajesh Anderson,Male,40.0,Port Elizabeth,South Africa
+C481,Priya Modise,Female,20.0,Paarl,South Africa
+C482,Rajesh van der Merwe,Male,22.0,Pretoria,South Africa
+C483,Mthokozisi Mthembu,Male,61.0,Cape Town,South Africa
+C484,Mandla Jones,Male,46.0,Pietermaritzburg,South Africa
+C485,Bongani Mokoena,Male,50.0,Nelspruit,South Africa
+C486,Buyani Kruger,Male,54.0,Boksburg,South Africa
+C487,Ayesha Joubert,Female,27.0,Centurion,South Africa
+C488,Njabulo Joubert,Male,35.0,Cape Town,South Africa
+C489,Sanele Moodley,Male,49.0,Cape Town,South Africa
+C490,Ayanda Pillay,Female,38.0,Paarl,South Africa
+C491,Patricia Joubert,Female,42.0,Bloemfontein,South Africa
+C492,Ayesha Botha,Female,37.0,Port Elizabeth,South Africa
+C493,Thandeka Moodley,Female,44.0,Paarl,South Africa
+C494,Musa Coetzee,Male,34.0,East London,South Africa
+C495,Naledi Taylor,Female,41.0,Durban,South Africa
+C496,Bongani Smit,Male,42.0,Boksburg,South Africa
+C497,Kagiso Gcaleka,Male,55.0,Midrand,South Africa
+C498,Lethiwe van der Merwe,Male,39.0,Nelspruit,South Africa
+C499,Michael Gcaleka,Male,65.0,Pretoria,South Africa
+C500,Ayesha Mthembu,Female,63.0,East London,South Africa
+C001,Sipho Smit,male,33.0,Pietermaritzburg,South Africa
+C002,Mpho Singh,MALE,23.0,Benoni,South Africa
+C003,Zanele Zulu,M,23.0,East London,South Africa
+C004,Sakhile Mthembu,female,19.0,Midrand,South Africa
+C005,Mthulisi Williams,f,32.0,Stellenbosch,South Africa
+C006,Lerato Radebe,F,62.0,Paarl,South Africa
+C007,Zainab Moloi,FEMALE,31.0,Polokwane,South Africa
+C008,Tshepo Smith,m,24.0,Rustenburg,South Africa
+C009,Fatima Dlamini,Male ,64.0,Stellenbosch,South Africa
+C010,Musa Ngcobo, Female,53.0,Nelspruit,South Africa
+C011,Nokufa Gcaleka,Male,63.0,Durban,South Africa
+C012,David Pretorius,MALE,23.0,Pietermaritzburg,South Africa
+C013,Musa Smit,female,47.0,Rustenburg,South Africa
+C014,Sifiso Steyn,M,31.0,Kimberley,South Africa
+C015,Francois Singh,F,64.0,Pietermaritzburg,South Africa
