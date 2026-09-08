@@ -1,0 +1,107 @@
+{
+    "name": "PL_Master_Load",
+    "properties": {
+        "activities": [
+            {
+                "name": "Staging_Run1",
+                "type": "ExecutePipeline",
+                "dependsOn": [],
+                "policy": {
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "pipeline": {
+                        "referenceName": "pl_load_staging",
+                        "type": "PipelineReference"
+                    },
+                    "waitOnCompletion": true,
+                    "parameters": {
+                        "folderPath": {
+                            "value": "raw/run1",
+                            "type": "Expression"
+                        }
+                    }
+                }
+            },
+            {
+                "name": "DW_Run1",
+                "type": "ExecutePipeline",
+                "dependsOn": [
+                    {
+                        "activity": "Staging_Run1",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "pipeline": {
+                        "referenceName": "pl_load_dim_fact",
+                        "type": "PipelineReference"
+                    },
+                    "waitOnCompletion": true
+                }
+            },
+            {
+                "name": "Staging_Run2",
+                "type": "ExecutePipeline",
+                "dependsOn": [
+                    {
+                        "activity": "DW_Run1",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "pipeline": {
+                        "referenceName": "pl_load_staging",
+                        "type": "PipelineReference"
+                    },
+                    "waitOnCompletion": true,
+                    "parameters": {
+                        "folderPath": {
+                            "value": "raw/run2",
+                            "type": "Expression"
+                        }
+                    }
+                }
+            },
+            {
+                "name": "DW_Run2",
+                "type": "ExecutePipeline",
+                "dependsOn": [
+                    {
+                        "activity": "Staging_Run2",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "pipeline": {
+                        "referenceName": "pl_load_dim_fact",
+                        "type": "PipelineReference"
+                    },
+                    "waitOnCompletion": true
+                }
+            }
+        ],
+        "annotations": [],
+        "lastPublishTime": "2026-05-13T23:21:11Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}

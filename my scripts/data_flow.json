@@ -1,0 +1,951 @@
+{
+    "name": "df_transform_stg",
+    "properties": {
+        "type": "MappingDataFlow",
+        "typeProperties": {
+            "sources": [
+                {
+                    "dataset": {
+                        "referenceName": "ds_stg_transactions",
+                        "type": "DatasetReference"
+                    },
+                    "name": "srcTransections"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_stg_customers",
+                        "type": "DatasetReference"
+                    },
+                    "name": "srcCustomers"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_dimcustomers",
+                        "type": "DatasetReference"
+                    },
+                    "name": "srcDimCustomers"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_dimdate_table",
+                        "type": "DatasetReference"
+                    },
+                    "name": "srcDimDate"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_cards_stg",
+                        "type": "DatasetReference"
+                    },
+                    "name": "srcCards"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_dim_cards",
+                        "type": "DatasetReference"
+                    },
+                    "name": "srcDimCard"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_stg_merchant",
+                        "type": "DatasetReference"
+                    },
+                    "name": "srcMerchants"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_dim_merchants",
+                        "type": "DatasetReference"
+                    },
+                    "name": "srcDimMerchant"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_stg_transactions",
+                        "type": "DatasetReference"
+                    },
+                    "name": "srcTransactionssgt"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_dimcustomers2",
+                        "type": "DatasetReference"
+                    },
+                    "name": "srcdimCustomers2"
+                }
+            ],
+            "sinks": [
+                {
+                    "dataset": {
+                        "referenceName": "ds_dimdate",
+                        "type": "DatasetReference"
+                    },
+                    "name": "sinkDimdate"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_dim_customers",
+                        "type": "DatasetReference"
+                    },
+                    "name": "sinkCustomers"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_dim_customers",
+                        "type": "DatasetReference"
+                    },
+                    "name": "sinkCustomers2"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_dim_cards",
+                        "type": "DatasetReference"
+                    },
+                    "name": "sinkDimcard1"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_dim_cards",
+                        "type": "DatasetReference"
+                    },
+                    "name": "sinkDimCard2"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_dim_merchants",
+                        "type": "DatasetReference"
+                    },
+                    "name": "sinkMerchants1"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_dim_merchants",
+                        "type": "DatasetReference"
+                    },
+                    "name": "sinkMerchants2"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "ds_factTransactions",
+                        "type": "DatasetReference"
+                    },
+                    "name": "snkFactTransactions1"
+                }
+            ],
+            "transformations": [
+                {
+                    "name": "selDates"
+                },
+                {
+                    "name": "fildates"
+                },
+                {
+                    "name": "aggrUniqueDates"
+                },
+                {
+                    "name": "derDateAttributes"
+                },
+                {
+                    "name": "filtNullsCustromers"
+                },
+                {
+                    "name": "aggUniqueCustomers"
+                },
+                {
+                    "name": "derStandardizeText"
+                },
+                {
+                    "name": "lookupexistingcustomer"
+                },
+                {
+                    "name": "selcustomers2"
+                },
+                {
+                    "name": "csSCDSplit"
+                },
+                {
+                    "name": "selCustomers3"
+                },
+                {
+                    "name": "altNewrecords"
+                },
+                {
+                    "name": "dernewColumns"
+                },
+                {
+                    "name": "lkpExistingDates"
+                },
+                {
+                    "name": "altOldrecords"
+                },
+                {
+                    "name": "derexprecolumns"
+                },
+                {
+                    "name": "filnullscards"
+                },
+                {
+                    "name": "aggUniqueCards"
+                },
+                {
+                    "name": "derStandardizeText2"
+                },
+                {
+                    "name": "lkpCustomerKey2"
+                },
+                {
+                    "name": "filtHascustomers"
+                },
+                {
+                    "name": "fltCurrentCards"
+                },
+                {
+                    "name": "lkpExisting"
+                },
+                {
+                    "name": "csSCDSplit2card"
+                },
+                {
+                    "name": "selcards2"
+                },
+                {
+                    "name": "selcards3"
+                },
+                {
+                    "name": "altExpireOldCards"
+                },
+                {
+                    "name": "derexpiredCardsrecords"
+                },
+                {
+                    "name": "skcard"
+                },
+                {
+                    "name": "altNewcard2"
+                },
+                {
+                    "name": "derivednewcardsrecords"
+                },
+                {
+                    "name": "filtNulldmerchant"
+                },
+                {
+                    "name": "aggUniqueMerchants"
+                },
+                {
+                    "name": "derStandardizeText4"
+                },
+                {
+                    "name": "filtMerchants1"
+                },
+                {
+                    "name": "lkpExistingMerchants"
+                },
+                {
+                    "name": "selmerchantscolumns1"
+                },
+                {
+                    "name": "csSCDSplitMerchants"
+                },
+                {
+                    "name": "altExpireOldMerchants"
+                },
+                {
+                    "name": "derexpiredMerchants"
+                },
+                {
+                    "name": "skmerchants1"
+                },
+                {
+                    "name": "altNewMerchants"
+                },
+                {
+                    "name": "deriNewMerchants"
+                },
+                {
+                    "name": "skmerchnats2"
+                },
+                {
+                    "name": "filtTransactionsnulls"
+                },
+                {
+                    "name": "derFixAmount"
+                },
+                {
+                    "name": "lkpCustomerkey"
+                },
+                {
+                    "name": "fltCurrentCustomers"
+                },
+                {
+                    "name": "fltHasCustomer2"
+                },
+                {
+                    "name": "fltCurrentCards2"
+                },
+                {
+                    "name": "lkpCardKey2"
+                },
+                {
+                    "name": "fltHasCard2"
+                },
+                {
+                    "name": "lkpMerchantKey2"
+                },
+                {
+                    "name": "fltHasMerchant2"
+                },
+                {
+                    "name": "lkpDateKey2"
+                },
+                {
+                    "name": "fltHasDate2"
+                },
+                {
+                    "name": "selFactColumns1"
+                },
+                {
+                    "name": "altUpsertDate"
+                },
+                {
+                    "name": "skcustomers1"
+                },
+                {
+                    "name": "derFraudFlag"
+                }
+            ],
+            "scriptLines": [
+                "source(output(",
+                "          TransactionID as string,",
+                "          CustomerID as string,",
+                "          CardID as string,",
+                "          MerchantName as string,",
+                "          TransactionDate as date,",
+                "          Amount as decimal(18,2),",
+                "          TransactionType as string,",
+                "          Status as string,",
+                "          FraudFlag as integer,",
+                "          Channel as string,",
+                "          LoadDate as timestamp",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     isolationLevel: 'READ_UNCOMMITTED',",
+                "     format: 'table') ~> srcTransections",
+                "source(output(",
+                "          CustomerID as string,",
+                "          FullName as string,",
+                "          Gender as string,",
+                "          Age as integer,",
+                "          City as string,",
+                "          Country as string,",
+                "          LoadDate as timestamp",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     isolationLevel: 'READ_UNCOMMITTED',",
+                "     format: 'table') ~> srcCustomers",
+                "source(output(",
+                "          CustomerKey as integer,",
+                "          CustomerID as string,",
+                "          FullName as string,",
+                "          Gender as string,",
+                "          Age as integer,",
+                "          City as string,",
+                "          Country as string,",
+                "          StartDate as date,",
+                "          EndDate as date,",
+                "          IsCurrent as boolean",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     isolationLevel: 'READ_UNCOMMITTED',",
+                "     format: 'table') ~> srcDimCustomers",
+                "source(output(",
+                "          DateKey as integer,",
+                "          FullDate as date,",
+                "          Day as integer,",
+                "          Month as integer,",
+                "          Year as integer,",
+                "          Quarter as integer,",
+                "          WeekDay as string",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     isolationLevel: 'READ_UNCOMMITTED',",
+                "     format: 'table') ~> srcDimDate",
+                "source(output(",
+                "          CardID as string,",
+                "          CustomerID as string,",
+                "          CardType as string,",
+                "          CreditLimit as decimal(18,2),",
+                "          IssueDate as date,",
+                "          LoadDate as timestamp",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     isolationLevel: 'READ_UNCOMMITTED',",
+                "     format: 'table') ~> srcCards",
+                "source(output(",
+                "          CardKey as integer,",
+                "          CardID as string,",
+                "          CustomerID as string,",
+                "          CardType as string,",
+                "          CreditLimit as decimal(18,2),",
+                "          StartDate as date,",
+                "          EndDate as date,",
+                "          IsCurrent as boolean",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     isolationLevel: 'READ_UNCOMMITTED',",
+                "     format: 'table') ~> srcDimCard",
+                "source(output(",
+                "          MerchantID as string,",
+                "          MerchantName as string,",
+                "          Category as string,",
+                "          City as string,",
+                "          Country as string",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     isolationLevel: 'READ_UNCOMMITTED',",
+                "     format: 'table') ~> srcMerchants",
+                "source(output(",
+                "          MerchantKey as integer,",
+                "          MerchantName as string,",
+                "          Category as string,",
+                "          City as string,",
+                "          Country as string,",
+                "          StartDate as date,",
+                "          EndDate as date,",
+                "          IsCurrent as boolean",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     isolationLevel: 'READ_UNCOMMITTED',",
+                "     format: 'table') ~> srcDimMerchant",
+                "source(output(",
+                "          TransactionID as string,",
+                "          CustomerID as string,",
+                "          CardID as string,",
+                "          MerchantName as string,",
+                "          TransactionDate as date,",
+                "          Amount as decimal(18,2),",
+                "          TransactionType as string,",
+                "          Status as string,",
+                "          FraudFlag as integer,",
+                "          Channel as string,",
+                "          LoadDate as timestamp",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     isolationLevel: 'READ_UNCOMMITTED',",
+                "     format: 'table') ~> srcTransactionssgt",
+                "source(output(",
+                "          CustomerKey as integer,",
+                "          CustomerID as string,",
+                "          FullName as string,",
+                "          Gender as string,",
+                "          Age as integer,",
+                "          City as string,",
+                "          Country as string,",
+                "          StartDate as date,",
+                "          EndDate as date,",
+                "          IsCurrent as boolean",
+                "     ),",
+                "     allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     isolationLevel: 'READ_UNCOMMITTED',",
+                "     format: 'table') ~> srcdimCustomers2",
+                "srcTransections select(mapColumn(",
+                "          TransactionDate",
+                "     ),",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true) ~> selDates",
+                "selDates filter(not(isNull(TransactionDate))) ~> fildates",
+                "fildates aggregate(groupBy(TransactionDate),",
+                "     dummy = count(1)) ~> aggrUniqueDates",
+                "aggrUniqueDates derive(FullDate = TransactionDate,",
+                "          Year = year(TransactionDate),",
+                "          Quarter = ceil(month(TransactionDate) / 3),",
+                "          Month = month(TransactionDate),",
+                "          WeekDay = case(dayOfWeek(TransactionDate) == 1, 'Monday', dayOfWeek(TransactionDate) == 2, 'Tuesday', dayOfWeek(TransactionDate) == 3, 'Wednesday', dayOfWeek(TransactionDate) == 4, 'Thursday', dayOfWeek(TransactionDate) == 5, 'Friday', dayOfWeek(TransactionDate) == 6, 'Saturday', dayOfWeek(TransactionDate) == 7, 'Sunday'),",
+                "          Day = dayOfMonth(TransactionDate),",
+                "          Datekey = toInteger(toString(TransactionDate, 'yyyyMMdd'))) ~> derDateAttributes",
+                "srcCustomers filter(not(isNull(CustomerID))) ~> filtNullsCustromers",
+                "filtNullsCustromers aggregate(groupBy(CustomerID),",
+                "     LoadDate = max(LoadDate),",
+                "          Country = last(Country),",
+                "          City = last(City),",
+                "          Age = last(Age),",
+                "          Gender = last(Gender),",
+                "          FullName = last(FullName)) ~> aggUniqueCustomers",
+                "aggUniqueCustomers derive(FullName_clean = initCap(trim(FullName)),",
+                "          Gender_clean = initCap(trim(Gender)),",
+                "          Country_clean = initCap(trim(Country)),",
+                "          Age_clean = iif(Age < 18, 30, iif(Age > 100, 30, Age)),",
+                "          City_clean = initCap(trim(City))) ~> derStandardizeText",
+                "srcCustomers, srcDimCustomers lookup(srcCustomers@CustomerID == srcDimCustomers@CustomerID,",
+                "     multiple: false,",
+                "     pickup: 'first',",
+                "     asc(CustomerKey, true),",
+                "     broadcast: 'auto')~> lookupexistingcustomer",
+                "derStandardizeText select(mapColumn(",
+                "          CustomerID,",
+                "          LoadDate,",
+                "          FullName = FullName_clean,",
+                "          Gender = Gender_clean,",
+                "          Country = Country_clean,",
+                "          Age = Age_clean,",
+                "          City = City_clean",
+                "     ),",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true) ~> selcustomers2",
+                "selCustomers3 split(!isMatch(),",
+                "     isMatch() && (     toString(FullName) != toString(DimFullName) ||     toString(Gender) != toString(DimGender) ||     toInteger(Age) != toInteger(DimAge) ||     toString(City) != toString(DimCity) ||     toString(Country) != toString(DimCountry) ),",
+                "     disjoint: false) ~> csSCDSplit@(IsNew, Ischanged)",
+                "lookupexistingcustomer select(mapColumn(",
+                "          CustomerID = srcCustomers@CustomerID,",
+                "          FullName = srcCustomers@FullName,",
+                "          Gender = srcCustomers@Gender,",
+                "          Age = srcCustomers@Age,",
+                "          City = srcCustomers@City,",
+                "          Country = srcCustomers@Country,",
+                "          LoadDate,",
+                "          DimCustomerKey = CustomerKey,",
+                "          DimCustomerID = srcDimCustomers@CustomerID,",
+                "          DimFullName = srcDimCustomers@FullName,",
+                "          DimGender = srcDimCustomers@Gender,",
+                "          DimAge = srcDimCustomers@Age,",
+                "          DimCity = srcDimCustomers@City,",
+                "          DimCountry = srcDimCustomers@Country,",
+                "          DimStartDate = StartDate,",
+                "          DimEndDate = EndDate,",
+                "          DimIsCurrent = IsCurrent",
+                "     ),",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true) ~> selCustomers3",
+                "csSCDSplit@IsNew alterRow(insertIf(true())) ~> altNewrecords",
+                "altNewrecords derive(StartDate = currentDate(),",
+                "          IsCurrent = true()) ~> dernewColumns",
+                "altUpsertDate, srcDimDate lookup(derDateAttributes@Datekey == srcDimDate@DateKey,",
+                "     multiple: false,",
+                "     pickup: 'any',",
+                "     broadcast: 'auto')~> lkpExistingDates",
+                "csSCDSplit@Ischanged alterRow(updateIf(true())) ~> altOldrecords",
+                "altOldrecords derive(EndDate = currentDate(),",
+                "          IsCurrent = false()) ~> derexprecolumns",
+                "srcCards filter(not(isNull(CardID)) && not(isNull(CustomerID))) ~> filnullscards",
+                "filnullscards aggregate(groupBy(CardID),",
+                "     CustomerID = last(CustomerID),",
+                "          CardType = last(CardType),",
+                "          IssueDate = last(IssueDate),",
+                "          CreditLimit = last(CreditLimit),",
+                "          LoadDate = max(LoadDate)) ~> aggUniqueCards",
+                "aggUniqueCards derive(CardType_clean = initCap(trim(CardType)),",
+                "          CustomerID_clean = trim(CustomerID),",
+                "          CreditLimit_clean = toInteger(iif(CreditLimit < 0, 5000, toInteger(CreditLimit)))) ~> derStandardizeText2",
+                "srcCards, srcDimCustomers lookup(srcCards@CustomerID == srcDimCustomers@CustomerID,",
+                "     multiple: false,",
+                "     pickup: 'any',",
+                "     broadcast: 'auto')~> lkpCustomerKey2",
+                "lkpCustomerKey2 filter(isMatch()) ~> filtHascustomers",
+                "srcDimCard filter(IsCurrent == true()) ~> fltCurrentCards",
+                "srcCards, fltCurrentCards lookup(srcCards@CardID == srcDimCard@CardID,",
+                "     multiple: false,",
+                "     pickup: 'any',",
+                "     broadcast: 'auto')~> lkpExisting",
+                "selcards3 split(!isMatch(),",
+                "     isMatch() && (     coalesce(toString(CardType), \"\") != coalesce(toString(DimCardType), \"\") ||     coalesce(toString(CreditLimit), \"\") != coalesce(toString(DimCreditLimit), \"\") ),",
+                "     disjoint: false) ~> csSCDSplit2card@(IsNewcard, Ischangedcard1)",
+                "derStandardizeText2 select(mapColumn(",
+                "          CardID,",
+                "          CustomerID,",
+                "          CardType,",
+                "          IssueDate,",
+                "          CreditLimit,",
+                "          LoadDate,",
+                "          CardType = CardType_clean,",
+                "          CustomerID = CustomerID_clean,",
+                "          CreditLimit = CreditLimit_clean",
+                "     ),",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true) ~> selcards2",
+                "lkpExisting select(mapColumn(",
+                "          CardID = srcCards@CardID,",
+                "          CustomerID = srcCards@CustomerID,",
+                "          CardType = srcCards@CardType,",
+                "          CreditLimit = srcCards@CreditLimit,",
+                "          IssueDate,",
+                "          LoadDate,",
+                "          DimCardKey = CardKey,",
+                "          DimCardID = srcDimCard@CardID,",
+                "          DimCustomerID = srcDimCard@CustomerID,",
+                "          DimCardType = srcDimCard@CardType,",
+                "          DimCreditLimit = srcDimCard@CreditLimit,",
+                "          DimStartDate = StartDate,",
+                "          DimEndDate = EndDate,",
+                "          DimsCurrent = IsCurrent",
+                "     ),",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true) ~> selcards3",
+                "csSCDSplit2card@Ischangedcard1 alterRow(updateIf(true())) ~> altExpireOldCards",
+                "altExpireOldCards derive(EndDate = currentDate(),",
+                "          IsCurrent = false()) ~> derexpiredCardsrecords",
+                "derexpiredCardsrecords keyGenerate(output(CardKey as long),",
+                "     startAt: 1L,",
+                "     stepValue: 1L) ~> skcard",
+                "csSCDSplit2card@IsNewcard alterRow(insertIf(true())) ~> altNewcard2",
+                "altNewcard2 derive(StartDate = currentDate(),",
+                "          IsCurrent = true()) ~> derivednewcardsrecords",
+                "srcMerchants filter(not(isNull(MerchantName))) ~> filtNulldmerchant",
+                "filtNulldmerchant aggregate(groupBy(MerchantName),",
+                "     Category = last(Category),",
+                "          City = last(City),",
+                "          Country = last(Country)) ~> aggUniqueMerchants",
+                "aggUniqueMerchants derive(MerchantName_clean = initCap(trim(MerchantName)),",
+                "          Category_clean = initCap(trim(Category)),",
+                "          City_clean = initCap(trim(City)),",
+                "          Country_clean = initCap(trim(Country))) ~> derStandardizeText4",
+                "srcDimMerchant filter(IsCurrent == true()) ~> filtMerchants1",
+                "derStandardizeText4, filtMerchants1 lookup(aggUniqueMerchants@MerchantName == srcDimMerchant@MerchantName,",
+                "     multiple: false,",
+                "     pickup: 'any',",
+                "     broadcast: 'auto')~> lkpExistingMerchants",
+                "lkpExistingMerchants select(mapColumn(",
+                "          MerchantName = aggUniqueMerchants@MerchantName,",
+                "          Category = aggUniqueMerchants@Category,",
+                "          City = aggUniqueMerchants@City,",
+                "          Country = aggUniqueMerchants@Country,",
+                "          MerchantName_clean,",
+                "          Category_clean,",
+                "          City_clean,",
+                "          Country_clean,",
+                "          DImMerchantKey = MerchantKey,",
+                "          DimMerchantName = srcDimMerchant@MerchantName,",
+                "          DimCategory = srcDimMerchant@Category,",
+                "          DimCity = srcDimMerchant@City,",
+                "          DimCountry = srcDimMerchant@Country,",
+                "          DimStartDate = StartDate,",
+                "          DimEndDate = EndDate,",
+                "          DimIsCurrent = IsCurrent",
+                "     ),",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true) ~> selmerchantscolumns1",
+                "selmerchantscolumns1 split(!isMatch(),",
+                "     isMatch() && (     coalesce(toString(Category), \"\") != coalesce(toString(DimCategory), \"\") ||     coalesce(toString(City), \"\") != coalesce(toString(DimCity), \"\") ||     coalesce(toString(Country), \"\") != coalesce(toString(DimCountry), \"\") ),",
+                "     disjoint: false) ~> csSCDSplitMerchants@(IsNewmerchants, Ichangedmerchantss)",
+                "csSCDSplitMerchants@Ichangedmerchantss alterRow(updateIf(true())) ~> altExpireOldMerchants",
+                "altExpireOldMerchants derive(EndDate = currentDate(),",
+                "          IsCurrent = false()) ~> derexpiredMerchants",
+                "derexpiredMerchants keyGenerate(output(MerchantKey as long),",
+                "     startAt: 1L,",
+                "     stepValue: 1L) ~> skmerchants1",
+                "csSCDSplitMerchants@IsNewmerchants alterRow(insertIf(true())) ~> altNewMerchants",
+                "altNewMerchants derive(StartDate = currentDate(),",
+                "          IsCurrent = true()) ~> deriNewMerchants",
+                "deriNewMerchants keyGenerate(output(MerchantKey as long),",
+                "     startAt: 1L,",
+                "     stepValue: 1L) ~> skmerchnats2",
+                "srcTransactionssgt filter(not(isNull(TransactionID)) && not(isNull(CustomerID)) && not(isNull(CardID)) && not(isNull(MerchantName)) && not(isNull(TransactionDate)) && not(isNull(Amount)) && Amount > 0) ~> filtTransactionsnulls",
+                "filtTransactionsnulls derive(Amount_clean = iif(Amount < 0, Amount * -1, Amount)) ~> derFixAmount",
+                "derFixAmount, fltCurrentCustomers lookup(srcTransactionssgt@CustomerID == srcdimCustomers2@CustomerID,",
+                "     multiple: false,",
+                "     pickup: 'first',",
+                "     asc(CustomerKey, true),",
+                "     broadcast: 'auto')~> lkpCustomerkey",
+                "srcdimCustomers2 filter(IsCurrent == true()) ~> fltCurrentCustomers",
+                "lkpCustomerkey filter(isMatch()) ~> fltHasCustomer2",
+                "srcDimCard filter(IsCurrent == true()) ~> fltCurrentCards2",
+                "fltHasCustomer2, fltCurrentCards2 lookup(srcTransactionssgt@CardID == srcDimCard@CardID,",
+                "     multiple: false,",
+                "     pickup: 'first',",
+                "     asc(CardKey, true),",
+                "     broadcast: 'auto')~> lkpCardKey2",
+                "lkpCardKey2 filter(isMatch()) ~> fltHasCard2",
+                "fltHasCard2, filtMerchants1 lookup(srcTransactionssgt@MerchantName == srcDimMerchant@MerchantName,",
+                "     multiple: false,",
+                "     pickup: 'first',",
+                "     asc(MerchantKey, true),",
+                "     broadcast: 'auto')~> lkpMerchantKey2",
+                "lkpMerchantKey2 filter(isMatch()) ~> fltHasMerchant2",
+                "fltHasMerchant2, srcDimDate lookup(TransactionDate == FullDate,",
+                "     multiple: false,",
+                "     pickup: 'first',",
+                "     asc(DateKey, true),",
+                "     broadcast: 'auto')~> lkpDateKey2",
+                "lkpDateKey2 filter(isMatch()) ~> fltHasDate2",
+                "derFraudFlag select(mapColumn(",
+                "          TransactionID,",
+                "          TransactionType,",
+                "          Status,",
+                "          FraudFlag,",
+                "          Channel,",
+                "          Amount = Amount_clean,",
+                "          CustomerKey,",
+                "          CardKey,",
+                "          MerchantKey,",
+                "          DateKey",
+                "     ),",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true) ~> selFactColumns1",
+                "derDateAttributes alterRow(upsertIf(true())) ~> altUpsertDate",
+                "derexprecolumns keyGenerate(output(CustomerKey as long),",
+                "     startAt: 1L,",
+                "     stepValue: 1L) ~> skcustomers1",
+                "fltHasDate2 derive(FraudFlag = iif(Amount > CreditLimit * 0.7, true(),\r",
+                "iif(Amount > 5000, true(),\r",
+                "iif(Channel == 'Online' && Amount > 3000, true(),\r",
+                "iif(TransactionType == 'Withdrawal' && Amount > 1500, true(),\r",
+                "iif(Status == 'Declined' && Amount > 1000, true(), false())))))) ~> derFraudFlag",
+                "lkpExistingDates sink(allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     input(",
+                "          DateKey as integer,",
+                "          FullDate as date,",
+                "          Day as integer,",
+                "          Month as integer,",
+                "          Year as integer,",
+                "          Quarter as integer,",
+                "          WeekDay as string",
+                "     ),",
+                "     deletable:false,",
+                "     insertable:false,",
+                "     updateable:false,",
+                "     upsertable:true,",
+                "     keys:['DateKey'],",
+                "     format: 'table',",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true,",
+                "     errorHandlingOption: 'stopOnFirstError',",
+                "     mapColumn(",
+                "          DateKey = derDateAttributes@Datekey,",
+                "          FullDate = derDateAttributes@FullDate,",
+                "          Day = derDateAttributes@Day,",
+                "          Month = derDateAttributes@Month,",
+                "          Year = derDateAttributes@Year,",
+                "          Quarter = derDateAttributes@Quarter,",
+                "          WeekDay = derDateAttributes@WeekDay",
+                "     )) ~> sinkDimdate",
+                "dernewColumns sink(allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     input(",
+                "          CustomerKey as integer,",
+                "          CustomerID as string,",
+                "          FullName as string,",
+                "          Gender as string,",
+                "          Age as integer,",
+                "          City as string,",
+                "          Country as string,",
+                "          StartDate as date,",
+                "          EndDate as date,",
+                "          IsCurrent as boolean",
+                "     ),",
+                "     deletable:false,",
+                "     insertable:true,",
+                "     updateable:false,",
+                "     upsertable:false,",
+                "     format: 'table',",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true,",
+                "     errorHandlingOption: 'stopOnFirstError',",
+                "     mapColumn(",
+                "          CustomerID,",
+                "          FullName,",
+                "          Gender,",
+                "          Age,",
+                "          City,",
+                "          Country,",
+                "          StartDate,",
+                "          IsCurrent",
+                "     )) ~> sinkCustomers",
+                "skcustomers1 sink(allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     input(",
+                "          CustomerKey as integer,",
+                "          CustomerID as string,",
+                "          FullName as string,",
+                "          Gender as string,",
+                "          Age as integer,",
+                "          City as string,",
+                "          Country as string,",
+                "          StartDate as date,",
+                "          EndDate as date,",
+                "          IsCurrent as boolean",
+                "     ),",
+                "     deletable:false,",
+                "     insertable:false,",
+                "     updateable:true,",
+                "     upsertable:false,",
+                "     keys:['CustomerKey'],",
+                "     format: 'table',",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true,",
+                "     errorHandlingOption: 'stopOnFirstError',",
+                "     mapColumn(",
+                "          CustomerKey,",
+                "          CustomerID,",
+                "          FullName,",
+                "          Gender,",
+                "          Age,",
+                "          City,",
+                "          Country,",
+                "          EndDate,",
+                "          IsCurrent",
+                "     )) ~> sinkCustomers2",
+                "skcard sink(allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     input(",
+                "          CardKey as integer,",
+                "          CardID as string,",
+                "          CustomerID as string,",
+                "          CardType as string,",
+                "          CreditLimit as decimal(18,2),",
+                "          StartDate as date,",
+                "          EndDate as date,",
+                "          IsCurrent as boolean",
+                "     ),",
+                "     deletable:false,",
+                "     insertable:false,",
+                "     updateable:true,",
+                "     upsertable:false,",
+                "     keys:['CardKey'],",
+                "     format: 'table',",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true,",
+                "     errorHandlingOption: 'stopOnFirstError',",
+                "     mapColumn(",
+                "          CardKey = DimCardKey,",
+                "          CardID,",
+                "          CustomerID,",
+                "          CardType,",
+                "          CreditLimit,",
+                "          EndDate,",
+                "          IsCurrent",
+                "     )) ~> sinkDimcard1",
+                "derivednewcardsrecords sink(allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     input(",
+                "          CardKey as integer,",
+                "          CardID as string,",
+                "          CustomerID as string,",
+                "          CardType as string,",
+                "          CreditLimit as decimal(18,2),",
+                "          StartDate as date,",
+                "          EndDate as date,",
+                "          IsCurrent as boolean",
+                "     ),",
+                "     deletable:false,",
+                "     insertable:true,",
+                "     updateable:false,",
+                "     upsertable:false,",
+                "     format: 'table',",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true,",
+                "     errorHandlingOption: 'stopOnFirstError',",
+                "     mapColumn(",
+                "          CardID,",
+                "          CustomerID,",
+                "          CardType,",
+                "          CreditLimit,",
+                "          StartDate,",
+                "          IsCurrent",
+                "     )) ~> sinkDimCard2",
+                "skmerchants1 sink(allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     input(",
+                "          MerchantKey as integer,",
+                "          MerchantName as string,",
+                "          Category as string,",
+                "          City as string,",
+                "          Country as string,",
+                "          StartDate as date,",
+                "          EndDate as date,",
+                "          IsCurrent as boolean",
+                "     ),",
+                "     deletable:false,",
+                "     insertable:false,",
+                "     updateable:true,",
+                "     upsertable:false,",
+                "     keys:['MerchantKey'],",
+                "     format: 'table',",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true,",
+                "     errorHandlingOption: 'stopOnFirstError',",
+                "     mapColumn(",
+                "          MerchantKey = DImMerchantKey,",
+                "          MerchantName,",
+                "          Category,",
+                "          City,",
+                "          Country,",
+                "          EndDate,",
+                "          IsCurrent",
+                "     )) ~> sinkMerchants1",
+                "skmerchnats2 sink(allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     input(",
+                "          MerchantKey as integer,",
+                "          MerchantName as string,",
+                "          Category as string,",
+                "          City as string,",
+                "          Country as string,",
+                "          StartDate as date,",
+                "          EndDate as date,",
+                "          IsCurrent as boolean",
+                "     ),",
+                "     deletable:false,",
+                "     insertable:true,",
+                "     updateable:false,",
+                "     upsertable:false,",
+                "     format: 'table',",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true,",
+                "     errorHandlingOption: 'stopOnFirstError',",
+                "     mapColumn(",
+                "          MerchantName,",
+                "          Category,",
+                "          City,",
+                "          Country,",
+                "          StartDate,",
+                "          IsCurrent",
+                "     )) ~> sinkMerchants2",
+                "selFactColumns1 sink(allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     input(",
+                "          TransactionKey as long,",
+                "          CustomerKey as integer,",
+                "          CardKey as integer,",
+                "          MerchantKey as integer,",
+                "          DateKey as integer,",
+                "          TransactionID as string,",
+                "          Amount as decimal(18,2),",
+                "          TransactionType as string,",
+                "          Status as string,",
+                "          FraudFlag as boolean,",
+                "          Channel as string",
+                "     ),",
+                "     deletable:false,",
+                "     insertable:true,",
+                "     updateable:false,",
+                "     upsertable:false,",
+                "     format: 'table',",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true,",
+                "     errorHandlingOption: 'stopOnFirstError',",
+                "     mapColumn(",
+                "          CardKey,",
+                "          FraudFlag,",
+                "          MerchantKey,",
+                "          DateKey,",
+                "          TransactionID,",
+                "          Amount,",
+                "          TransactionType,",
+                "          Status,",
+                "          Channel",
+                "     )) ~> snkFactTransactions1"
+            ]
+        }
+    }
+}
