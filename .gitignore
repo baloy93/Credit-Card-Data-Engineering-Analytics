@@ -1,0 +1,52 @@
+# ============================================================
+# Credit Card Data Engineering - .gitignore
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment & Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+credentials.json
+connection_strings.txt
+
+# Azure
+.azure/
+azure.json
+
+# Large data files
+*.parquet
+*.delta
+data/raw/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+*.tmp
+
+# Power BI temp
+*.pbix.bak
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
